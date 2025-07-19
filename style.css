@@ -55,3 +55,8 @@ nav a {
     font-weight: 600;
     color: #f9faf8;
 }
+
+/* Section 1 - Banner */
+.section__1 {
+    background-color: #1f2837;
+}
