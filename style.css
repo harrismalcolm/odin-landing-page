@@ -2,8 +2,11 @@ body {
      font-family: "Roboto", sans-serif;
 }
 
+
 h1 {
     font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
 }
 
 p,
@@ -19,10 +22,24 @@ ul, ol {
     list-style: none;
 }
 
+img {
+    width: 100%;
+}
+
 blockquote {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
+}
+
+
+/* Button */
+.btn {
+    background-color: #3882f6;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 600;
 }
 
 /* Header Navigation */
@@ -59,4 +76,26 @@ nav a {
 /* Section 1 - Banner */
 .section__1 {
     background-color: #1f2837;
+    padding: 100px 0;
+}
+
+.section__1 p {
+    color:#e5e7eb;
+}
+
+.section__1--banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section__1--banner-copy {
+    flex: 33%;
+}
+
+.section__1--banner-img {
+    flex: 33%;
 }
