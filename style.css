@@ -99,3 +99,46 @@ nav a {
 .section__1--banner-img {
     flex: 33%;
 }
+
+/* SECTION 2 */
+
+.section__2 {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.section__2 h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.section__2--list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section__2--img-container {
+    display: block;
+    border: 5px solid #3882f6;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.section__2--list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.section__2--list-item p {
+    padding: 0 60px;
+    font-weight: 300;
+}
