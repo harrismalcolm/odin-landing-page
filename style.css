@@ -42,6 +42,14 @@ blockquote {
     font-weight: 600;
 }
 
+.btn--reverse {
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: 2px solid;
+}
+
 /* Header Navigation */
 
 header {
@@ -166,4 +174,34 @@ nav a {
     font-size: 18px;
     font-weight: 900;
     font-style: normal;
+}
+
+/* SECTION 4 */
+.section__4 {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 100px 0px;
+}
+
+.section__4--inner-container {
+    background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__4 p, .section__4 a {
+    color: #fff;
+}
+
+.section__4 p {
+    font-weight: 400;
+    margin: 0;
+}
+
+.section__4--item-1 {
+    flex: 1;
 }
