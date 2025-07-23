@@ -205,3 +205,12 @@ nav a {
 .section__4--item-1 {
     flex: 1;
 }
+
+/*FOOTER STYLES*/
+
+footer {
+    background-color: #1f2937;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
